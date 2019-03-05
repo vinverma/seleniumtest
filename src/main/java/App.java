@@ -12,7 +12,7 @@ public class App
  public static void main(String[] args) {
 
 
- System.setProperty("webdriver.chrome.driver","/Users/Shared/Jenkins/Home/workspace/SeleniumTestPipeline/chromedriver.exe");
+ System.setProperty("webdriver.chrome.driver","/Users/Shared/Jenkins/Home/workspace/SeleniumTestPipeline/chromedriver");
  ChromeOptions chromeOptions = new ChromeOptions();
  WebDriver driver = new ChromeDriver(chromeOptions);
 
