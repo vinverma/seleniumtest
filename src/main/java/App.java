@@ -12,7 +12,7 @@ public class App
  public static void main(String[] args) {
 
 
- System.setProperty("webdriver.chrome.driver","C:\\DevOpsClass\\chromedriver_win32\\chromedriver.exe");
+ System.setProperty("webdriver.chrome.driver","/chromedriver.exe");
  ChromeOptions chromeOptions = new ChromeOptions();
  WebDriver driver = new ChromeDriver(chromeOptions);
 
