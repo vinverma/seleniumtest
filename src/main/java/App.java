@@ -19,7 +19,7 @@ public class App
  System.out.println("Hi, Welcome to Edureka's YouTube Live session on Selenium WebDriver");
 
 
- driver.get("http://localhost:9090/addressbook");
+ driver.get("http://localhost:9090/Devops");
 
  driver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
  driver.findElement(By.className("v-button")).click();
