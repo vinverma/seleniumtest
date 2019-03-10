@@ -9,7 +9,7 @@ public class App
 {
  @Test
 
- public static void main(String[] args) {
+ public static void main(String[] args) throws InterruptedException {
 
 
  System.setProperty("webdriver.chrome.driver","/Users/Shared/Jenkins/Home/workspace/SeleniumTestPipeline/chromedriver");
